@@ -1,0 +1,24 @@
+# Ignore build output
+.next/
+
+# Ignore dependencies
+node_modules/
+
+# Ignore environment files
+!.env
+!.env.*
+# Allow .env.local for Cursor editing
+!.env.local
+
+# Ignore logs
+*.log
+
+# Ignore OS files
+.DS_Store
+Thumbs.db
+
+# Ignore test coverage
+coverage/
+
+# Ignore Supabase generated files (if any)
+supabase/.temp/ 
